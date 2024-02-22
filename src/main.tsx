@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Game from "./pages/Game.tsx";
-import About from "./pages/About.tsx";
+import Game from "./pages/GamePage.tsx";
+import About from "./pages/AboutPage.tsx";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import './index.css';
