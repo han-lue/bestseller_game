@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function BookLeft(props: 
   {title: string,
   author: string,
