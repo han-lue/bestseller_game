@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
 
-import data from "../assets/data.json"
+import data from "../assets/data_test.json"
 import GameStats from '../components/GameStats.tsx';
 import BookLeft from '../components/BookLeft.tsx';
+import BookRight from '../components/BookRight.tsx';
+import GameOver from "../components/GameOver.tsx"
+import YouWon from '../components/YouWon.tsx';
 
 interface Book {
     title: string,
@@ -10,7 +13,8 @@ interface Book {
     year_published: number,
     cover: string,
     weeks_number_one: number
-  }
+}
+
 
 export default function GamePage() {
 
@@ -20,8 +24,8 @@ export default function GamePage() {
     const [gameOver, setGameOver] = useState<boolean>(false);
     const [youWon, setYouWon] = useState<boolean>(false);
 
-    const [bookLeft, setBookLeft] = useState<Book>();
-    const [bookRight, setBookRight] = useState<Book>();
+    const [bookLeft, setBookLeft] = useState<Book>({title: "", author: "", year_published: 0, cover: "", weeks_number_one: 0});
+    const [bookRight, setBookRight] = useState<Book>({title: "", author: "", year_published: 0, cover: "", weeks_number_one: 0});
 
     const [remainingBooks, setRemainingBooks] = useState<Array<Book>>([]);
 
@@ -51,12 +55,12 @@ export default function GamePage() {
         setGameOver(false);
         setYouWon(false);
         setHealth(3);
-        setBookLeft({});
-        setBookRight({});
+        setBookLeft({title: "", author: "", year_published: 0, cover: "", weeks_number_one: 0});
+        setBookRight({title: "", author: "", year_published: 0, cover: "", weeks_number_one: 0});
         setRemainingBooks([]);
     }
 
-    function handlePlayButton() {
+    const handlePlayButton = () => {
         resetStates();
         startGame();
     }
@@ -76,12 +80,11 @@ export default function GamePage() {
       
         } else {
             setYouWon(true);
-            setPlaying(false);
         }
          
     }
 
-    function handleAnswer(answer) {
+    const handleAnswer = (answer: string) => {
         if (answer === "+" && bookLeft.weeks_number_one <= bookRight.weeks_number_one) {
             setScore(score + 1);
             getNewBook();
@@ -97,30 +100,38 @@ export default function GamePage() {
               getNewBook();
             } else {
               setGameOver(true);
-              setPlaying(false);
             }   
         }
     }
 
   return (
-    <div className='bg-black text-white h-screen w-screen flex flex-col'>
+    <div className='bg-black text-white h-screen w-screen flex flex-col items-center justify-center'>
         {
         playing 
         ? 
-        <>
+        <div className='bg-black text-white h-screen w-screen flex flex-col items-center justify-center pt-6'>
             <GameStats score={score} health={health}/>
-            <BookLeft title={bookLeft.title} author={bookLeft.author} year_published={bookLeft.year_published}  cover={bookLeft.cover} weeks_number_one={bookLeft?.weeks_number_one}/>
-        </>
+            <div className='flex items-center justify-center w-full'>
+                <BookLeft title={bookLeft.title} author={bookLeft.author} year_published={bookLeft.year_published}  cover={bookLeft.cover} weeks_number_one={bookLeft.weeks_number_one}/>
+                <BookRight title={bookRight.title} author={bookRight.author} year_published={bookRight.year_published}  cover={bookRight.cover} handleAnswer={handleAnswer}/>
+            </div>
 
+            {
+                gameOver && 
+                <GameOver score={score} handlePlayButton={handlePlayButton}/>
+            }
+            {
+                youWon &&
+                <YouWon score={score} handlePlayButton={handlePlayButton}/>
+            }
+        </div>
         :  
-        <>
+        <div className='flex flex-col w-full h-full justify-center items-center'>
             <p>This is a simple higher or lower game where you try to guess which book stayed longer in the New York Times Bestseller List</p>
             <button className='bg-blue-400 text-white p-4 self-center' onClick={handlePlayButton}>Start Playing</button>
-        </>
+        </div>
         }
         
-
-
     </div>
   )
 }

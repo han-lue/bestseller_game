@@ -1,0 +1,37 @@
+[
+    {
+        "title": "The End of Desire",
+        "author": "Robert Herrick",
+        "year_published": 1932,
+        "cover": "https://pictures.abebooks.com/isbn/9780781212830-us.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Mary's Neck",
+        "author": "Booth Tarkington",
+        "year_published": 1932,
+        "cover": "https://pictures.abebooks.com/inventory/31320762072.jpg",
+        "weeks_number_one": 7
+    },
+    {
+        "title": "Magnolia Street",
+        "author": "Louis Golding",
+        "year_published": 1932,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1528073800i/2463730.jpg",
+        "weeks_number_one": 4
+    },
+    {
+        "title": "Bright Skin",
+        "author": "Julia Peterkin",
+        "year_published": 1932,
+        "cover": "https://d3525k1ryd2155.cloudfront.net/h/352/875/1200875352.0.x.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "A Modern Hero",
+        "author": "Louis Bromfield",
+        "year_published": 1932,
+        "cover": "https://pictures.abebooks.com/inventory/30780238803.jpg",
+        "weeks_number_one": 1
+    }
+]
