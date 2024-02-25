@@ -6,9 +6,9 @@ export default {
   ],
   theme: {
     colors: {
-      black: "#191919",
+      black: "#101010",
       white: "#f6f6f6",
-      gray: "#101010"
+      gray: "#191919"
     },
     extend: {},
   },

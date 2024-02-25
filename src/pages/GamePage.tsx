@@ -96,22 +96,23 @@ export default function GamePage() {
         } else {
       
             if (health > 1) {
-              setHealth(health - 1);
-              getNewBook();
+                setHealth(health - 1);
+                getNewBook();
             } else {
-              setGameOver(true);
+                setHealth(health - 1);
+                setGameOver(true);
             }   
         }
     }
 
   return (
-    <div className='bg-black text-white h-screen w-screen flex flex-col items-center justify-center'>
+    <div className='bg-gray text-white h-screen w-screen px-4 md:px-0 flex flex-col items-center justify-center'>
         {
         playing 
         ? 
-        <div className='bg-black text-white h-screen w-screen flex flex-col items-center justify-center pt-6'>
+        <div className='bg-gray text-white h-full w-full flex flex-col items-center justify-center relative'>
             <GameStats score={score} health={health}/>
-            <div className='flex items-center justify-center w-full'>
+            <div className='flex items-center justify-center w-full gap-4 md:gap-0'>
                 <BookLeft title={bookLeft.title} author={bookLeft.author} year_published={bookLeft.year_published}  cover={bookLeft.cover} weeks_number_one={bookLeft.weeks_number_one}/>
                 <BookRight title={bookRight.title} author={bookRight.author} year_published={bookRight.year_published}  cover={bookRight.cover} handleAnswer={handleAnswer}/>
             </div>
@@ -125,9 +126,9 @@ export default function GamePage() {
             }
         </div>
         :  
-        <div className='flex flex-col w-full h-full justify-center items-center'>
+        <div className='flex flex-col w-full h-full justify-center items-center gap-12'>
             <p>This is a simple higher or lower game where you try to guess which book stayed longer in the New York Times Bestseller List</p>
-            <button className='bg-white text-black p-4 self-center' onClick={handlePlayButton}>Start Playing</button>
+            <button className='bg-white text-black p-4 self-center rounded-lg' onClick={handlePlayButton}>Start Playing</button>
         </div>
         }
         

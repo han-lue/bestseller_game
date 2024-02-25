@@ -5,10 +5,11 @@ type YouWonPropTypes = {
 
 export default function YouWon({score, handlePlayButton}: YouWonPropTypes) {
   return (
-    <div className='flex flex-col h-2/3 w-2/3 absolute bg-gray items-center justify-center drop-shadow-2xl rounded-lg border border-white'>
-      <p>YOU WON!</p>
-      <p>You got all {score} of them correct</p>
-      <button className='bg-white text-black  p-4 self-center' onClick={handlePlayButton}>Play Again</button>
+    <div className='flex flex-col w-4/5 aspect-square md:h-3/5 md:w-auto absolute 
+    bg-black items-center justify-between drop-shadow-2xl rounded-lg border border-white text-center p-4'>
+      <p className="text-2xl font-bold">YOU WON</p>
+      <p className="text-lg">Good job nerd, you got all {score} answers correct</p>
+      <button className='bg-white text-black p-4 self-center rounded-lg' onClick={handlePlayButton}>Play Again</button>
     </div>
   )
 }
