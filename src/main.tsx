@@ -1,4 +1,3 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Game from "./pages/GamePage.tsx";
 import About from "./pages/AboutPage.tsx";
