@@ -33,20 +33,15 @@ export default function GamePage() {
         let array = [...data];
 
         let index = Math.floor(Math.random() * (array.length - 1));
-        console.log(index)
 
         setBookLeft(array.splice(index, 1)[0]);
 
-
         index = Math.floor(Math.random() * (array.length - 1));
-        console.log(index)
 
         setBookRight(array.splice(index, 1)[0]);
 
         setRemainingBooks(array);
 
-        console.log(bookLeft);
-        console.log(bookRight);
     }
 
     function resetStates() {
@@ -112,7 +107,7 @@ export default function GamePage() {
         ? 
         <div className='bg-gray text-white h-full w-full flex flex-col items-center justify-center relative'>
             <GameStats score={score} health={health}/>
-            <div className='flex items-center justify-center w-full gap-4 md:gap-0'>
+            <div className={`flex items-center justify-center w-full gap-4 md:gap-0 ${gameOver || youWon === true ? 'blur-sm' : 'blur-none'}`}>
                 <BookLeft title={bookLeft.title} author={bookLeft.author} year_published={bookLeft.year_published}  cover={bookLeft.cover} weeks_number_one={bookLeft.weeks_number_one}/>
                 <BookRight title={bookRight.title} author={bookRight.author} year_published={bookRight.year_published}  cover={bookRight.cover} handleAnswer={handleAnswer}/>
             </div>
