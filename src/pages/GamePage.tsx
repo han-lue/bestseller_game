@@ -3,7 +3,9 @@ import { useState } from 'react'
 import data from "../assets/data.json"
 import GameStats from '../components/GameStats.tsx';
 import BookLeft from '../components/BookLeft.tsx';
+import BookLeftMobile from '../components/BookLeftMobile.tsx';
 import BookRight from '../components/BookRight.tsx';
+import BookRightMobile from '../components/BookRightMobile.tsx';
 import GameOver from "../components/GameOver.tsx"
 import YouWon from '../components/YouWon.tsx';
 
@@ -107,7 +109,11 @@ export default function GamePage() {
         ? 
         <div className='bg-gray text-white h-full w-full flex flex-col items-center justify-center relative'>
             <GameStats score={score} health={health}/>
-            <div className={`flex items-center justify-center w-full gap-4 md:gap-0 ${gameOver || youWon === true ? 'blur-sm' : 'blur-none'}`}>
+            <div className={`flex md:hidden items-center justify-center w-full gap-4 ${gameOver || youWon === true ? 'blur-sm' : 'blur-none'}`}>
+                <BookLeftMobile title={bookLeft.title} author={bookLeft.author} year_published={bookLeft.year_published}  cover={bookLeft.cover} weeks_number_one={bookLeft.weeks_number_one}/>
+                <BookRightMobile title={bookRight.title} author={bookRight.author} year_published={bookRight.year_published}  cover={bookRight.cover} handleAnswer={handleAnswer}/>
+            </div>
+            <div className={`hidden md:flex items-center justify-center w-full md:gap-0 ${gameOver || youWon === true ? 'blur-sm' : 'blur-none'}`}>
                 <BookLeft title={bookLeft.title} author={bookLeft.author} year_published={bookLeft.year_published}  cover={bookLeft.cover} weeks_number_one={bookLeft.weeks_number_one}/>
                 <BookRight title={bookRight.title} author={bookRight.author} year_published={bookRight.year_published}  cover={bookRight.cover} handleAnswer={handleAnswer}/>
             </div>
