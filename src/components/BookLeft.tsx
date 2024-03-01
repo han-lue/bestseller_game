@@ -17,7 +17,7 @@ export default function BookLeft(props:
 
         <img src={props.cover} alt='book cover' className='w-full sm:w-9/12  md:w-3/5 lg:w-1/2 aspect-[2/3] rounded-lg border border-white'/>
         
-        <div className="h-[34px] min-[375px]:h-[42px] md:h-[46px] items-center justify-center">
+        <div className="h-[34px] min-[375px]:h-[42px] md:h-[46px] flex items-center justify-center">
           <p className="text-xs min-[375px]:text-base md:text-lg lg:text-xl font-semibold text-white">
           Weeks #1 on the list: {props.weeks_number_one}</p>
         </div>

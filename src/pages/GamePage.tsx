@@ -107,14 +107,14 @@ export default function GamePage() {
     }
 
   return (
-    <div className='bg-gray text-white h-screen w-screen px-4 md:px-0 flex flex-col items-center justify-center'>
+    <div className='bg-gray text-white h-screen w-screen px-3 md:px-0 flex flex-col items-center justify-center'>
         {
         playing 
         ? 
         <div className='bg-gray text-white h-full w-full flex flex-col items-center justify-center relative'>
-            <GameStats score={score} health={health}/>
+            <GameStats score={score} health={health} gameOver={gameOver} youWon={youWon}/>
 
-            <div className={`flex items-center justify-center w-full gap-4 ${gameOver || youWon === true ? 'blur-sm' : 'blur-none'}`}>
+            <div className={`flex items-center justify-center w-full gap-4`}>
                 <BookLeft title={bookLeft.title} author={bookLeft.author} year_published={bookLeft.year_published}  cover={bookLeft.cover} weeks_number_one={bookLeft.weeks_number_one}/>
                 <BookRight title={bookRight.title} author={bookRight.author} year_published={bookRight.year_published}  cover={bookRight.cover} handleAnswer={handleAnswer}/>
             </div>
@@ -131,7 +131,7 @@ export default function GamePage() {
         :  
         <div className='flex flex-col w-full h-full justify-center items-center gap-12'>
             <p>This is a simple higher or lower game where you try to guess which book stayed longer in the New York Times Bestseller List</p>
-            <button className='bg-white text-black p-4 self-center rounded-lg' onClick={handlePlayButton}>Start Playing</button>
+            <button className='bg-white text-black p-4 self-center rounded-lg font-semibold hover:bg-opacity-80' onClick={handlePlayButton}>Start Playing</button>
         </div>
         }
         
