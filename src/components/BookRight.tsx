@@ -18,14 +18,13 @@ type BookRightPropTypes = {
 
         <img src={cover} alt='book cover' className='w-full sm:w-9/12  md:w-3/5 lg:w-1/2 aspect-[2/3] rounded-lg border border-white'/>
         
-        <div className="flex gap-4 w-auto text-xs min-[375px]:text-base md:text-lg  text-white md:h-[28px] font-semibold">
-          <button className='px-2 min-[390px]:px-4 rounded-xl border border-white hover:bg-white hover:text-black' 
+        <div className="flex gap-4 w-auto text-xs min-[375px]:text-base md:text-lg  text-white font-semibold">
+          <button className='p-2 min-[390px]:px-4 rounded-xl border border-white active:bg-white active:text-black md:hover:bg-white md:hover:text-black' 
           onClick={() => handleAnswer("-")}>Lower</button>
-          <button className='px-2 min-[390px]:px-3 min-[440px]:px-4 rounded-xl border border-white hover:bg-white hover:text-black' 
+          <button className='p-2 min-[390px]:px-3 min-[440px]:px-4 rounded-xl border border-white active:bg-white active:text-black md:hover:bg-white md:hover:text-black ' 
           onClick={() => handleAnswer("+")}>Higher</button>
         </div>
         
       </div>
     )
   }
-  
