@@ -19,7 +19,7 @@ export default function BookLeft(props:
         
         <div className="h-[34px] min-[375px]:h-[42px] md:h-[46px] flex items-center justify-center">
           <p className="text-xs min-[375px]:text-base md:text-lg lg:text-xl font-semibold text-white">
-          Weeks #1 on the list: {props.weeks_number_one}</p>
+          Weeks #1: {props.weeks_number_one}</p>
         </div>
 
         
