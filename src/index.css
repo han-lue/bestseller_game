@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.c-font-title {
+    font-size: calc(16px + 0.390625vw);
+}
+
+.c-font-author {
+    font-size: calc(14px + 0.390625vw);
+}
+
+.c-font-text {
+    font-size: calc(14px + 0.390625vw);
+}
