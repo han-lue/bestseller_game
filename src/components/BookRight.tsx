@@ -1,15 +1,19 @@
+import { motion } from "framer-motion"
+
 type BookRightPropTypes = {
-    title: string,
-    author: string,
-    year_published: number,
-    cover: string,
-    handleAnswer: (answer: string) => void
-  }
+  title: string,
+  author: string,
+  year_published: number,
+  cover: string,
+  showAnswer: boolean,
+  weeks_number_one: number,
+  handleAnswer: (answer: string) => void
+}
   
-  export default function BookRight({title, author, year_published, cover, handleAnswer}: BookRightPropTypes) {
+  export default function BookRight({title, author, year_published, cover, showAnswer, weeks_number_one, handleAnswer}: BookRightPropTypes) {
   
     return (
-      <div className='w-1/2 h-full flex flex-col items-center justify-end gap-3'>
+      <div className='w-1/2 h-full flex flex-col items-center justify-end gap-3 relative'>
 
         <div className="flex flex-col gap-1 text-center rounded-lg text-white ">
           <p className="c-font-title font-extrabold">{title} <span>({year_published})</span></p>
@@ -24,6 +28,14 @@ type BookRightPropTypes = {
           <button className='p-2 min-[440px]:px-4 rounded-xl bg-white text-black active:bg-opacity-80 md:hover:opacity-80' 
           onClick={() => handleAnswer("+")}>Higher</button>
         </div>
+
+        {
+          showAnswer && 
+          <motion.div initial={{opacity: 0, y: "0vh"}} animate={{opacity: 1, y: "-50vh"}} transition={{duration: 2, ease: "easeOut"}}>
+            <p className="absolute bg-black p-2 c-font-text font-bold rounded-lg w-auto left-1/2 transform -translate-x-1/2">Weeks #1: {weeks_number_one}</p>
+          </motion.div>
+        
+        }
         
       </div>
     )

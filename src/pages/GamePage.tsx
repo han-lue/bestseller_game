@@ -21,6 +21,8 @@ export default function GamePage() {
     const [playing, setPlaying] = useState<boolean>(false);
     const [score, setScore] = useState<number>(0);
     const [health, setHealth] = useState<number>(3);
+
+    const [showAnswer, setShowAnswer] = useState<boolean>(false);
     const [gameOver, setGameOver] = useState<boolean>(false);
     const [youWon, setYouWon] = useState<boolean>(false);
 
@@ -50,6 +52,7 @@ export default function GamePage() {
         setGameOver(false);
         setYouWon(false);
         setHealth(3);
+        setShowAnswer(false);
         setBookLeft({title: "", author: "", year_published: 0, cover: "", weeks_number_one: 0});
         setBookRight({title: "", author: "", year_published: 0, cover: "", weeks_number_one: 0});
         setRemainingBooks([]);
@@ -62,6 +65,8 @@ export default function GamePage() {
 
     function getNewBook() {
         if (remainingBooks.length > 0) {
+
+            setShowAnswer(false);
 
             let array = [...remainingBooks];
         
@@ -82,17 +87,20 @@ export default function GamePage() {
     const handleAnswer = (answer: string) => {
         if (answer === "+" && bookLeft.weeks_number_one <= bookRight.weeks_number_one) {
             setScore(score + 1);
-            getNewBook();
+            setShowAnswer(true);
+            setTimeout(getNewBook, 2000);
             
         } else if (answer === "-" && bookLeft.weeks_number_one >= bookRight.weeks_number_one) {
             setScore(score + 1);
-            getNewBook();
+            setShowAnswer(true);
+            setTimeout(getNewBook, 2000);
       
         } else {
       
             if (health > 1) {
                 setHealth(health - 1);
-                getNewBook();
+                setShowAnswer(true);
+                setTimeout(getNewBook, 2000);
             } else {
                 setHealth(health - 1);
                 setGameOver(true);
@@ -103,7 +111,7 @@ export default function GamePage() {
     }
 
   return (
-    <div className='bg-gray text-white h-screen w-screen px-3 md:px-0 flex flex-col items-center justify-center'>
+    <div className='bg-gray text-white h-screen w-screen px-3 flex flex-col items-center justify-center'>
         {
         playing 
         ? 
@@ -112,7 +120,8 @@ export default function GamePage() {
 
             <div className={`flex items-center justify-center w-full gap-4`}>
                 <BookLeft title={bookLeft.title} author={bookLeft.author} year_published={bookLeft.year_published}  cover={bookLeft.cover} weeks_number_one={bookLeft.weeks_number_one}/>
-                <BookRight title={bookRight.title} author={bookRight.author} year_published={bookRight.year_published}  cover={bookRight.cover} handleAnswer={handleAnswer}/>
+                <BookRight title={bookRight.title} author={bookRight.author} year_published={bookRight.year_published}  cover={bookRight.cover} handleAnswer={handleAnswer} 
+                showAnswer={showAnswer} weeks_number_one={bookRight.weeks_number_one}/>
             </div>
             
             {
@@ -134,3 +143,9 @@ export default function GamePage() {
     </div>
   )
 }
+
+/* 
+todo:
+-fix show the answer animation
+-add right book slide to left animation
+*/
