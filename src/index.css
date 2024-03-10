@@ -14,3 +14,7 @@
 .c-font-text {
     font-size: calc(14px + 0.390625vw);
 }
+
+.c-font-headline {
+    font-size: calc(20px + 0.390625vw);
+}

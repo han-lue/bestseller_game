@@ -146,6 +146,9 @@ export default function GamePage() {
 
 /* 
 todo:
--fix show the answer animation
--add right book slide to left animation
+- bug fix: showAnswer anim only triggers the first time and never again
+- try right book slide to left animation
+- fix alert ui
+- add another visual effect so the user can easily tell if their answer was correct or not
+- disable buttons during wait time so user doesnt spam it
 */
