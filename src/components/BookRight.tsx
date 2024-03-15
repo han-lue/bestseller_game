@@ -8,7 +8,7 @@ type BookRightPropTypes = {
   cover: string,
   showAnswer: boolean,
   weeks_number_one: number,
-  answerIs: Status,
+  answerIs: status,
   handleAnswer: (answer: string) => void
 }
 
