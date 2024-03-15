@@ -97,7 +97,7 @@ export default function GamePage() {
          
     }
 
-    function handleBackgroundColor(status) {
+    function handleBackgroundColor(status: Status) {
         setAnswerIs(status);
 
         setTimeout(() => {setAnswerIs("idle")}, 250);
