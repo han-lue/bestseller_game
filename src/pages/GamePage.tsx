@@ -100,7 +100,7 @@ export default function GamePage() {
     function handleBackgroundColor(status: Status) {
         setAnswerIs(status);
 
-        setTimeout(() => {setAnswerIs("idle")}, 250);
+        setTimeout(() => {setAnswerIs("idle")}, 500);
     }
 
     const handleAnswer = (answer: string) => {
@@ -133,12 +133,12 @@ export default function GamePage() {
 
   return (
     <div className='bg-gray text-white h-screen w-screen px-3 flex flex-col items-center justify-center'>
-        <div className={` text-white h-full w-full flex flex-col items-center justify-center relative ${colorVariants[answerIs]}`}>
+        <div className={` text-white h-full w-full flex flex-col items-center justify-center relative bg-gray`}>
             <GameStats score={score} health={health} gameOver={gameOver} youWon={youWon}/>
 
             <div className={`flex items-center justify-center w-full gap-4`}>
                 <BookLeft title={bookLeft.title} author={bookLeft.author} year_published={bookLeft.year_published}  cover={bookLeft.cover} weeks_number_one={bookLeft.weeks_number_one}/>
-                <BookRight title={bookRight.title} author={bookRight.author} year_published={bookRight.year_published}  cover={bookRight.cover} handleAnswer={handleAnswer} 
+                <BookRight title={bookRight.title} author={bookRight.author} year_published={bookRight.year_published}  cover={bookRight.cover} answerIs={answerIs} handleAnswer={handleAnswer} 
                 showAnswer={showAnswer} weeks_number_one={bookRight.weeks_number_one}/>
             </div>
             

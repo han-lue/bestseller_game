@@ -17,7 +17,7 @@ export default function BookLeft(props:
             <p className="c-font-author font-semibold">{props.author}</p>
         </div>
 
-        <img src={props.cover} alt='book cover' className='w-full sm:w-9/12  md:w-3/5 lg:w-1/2 aspect-[2/3] rounded-lg border border-white'/>
+        <img src={props.cover} alt='book cover' className='w-full sm:w-9/12  md:w-3/5 lg:w-1/2 aspect-[2/3] rounded-lg border-2 border-white'/>
         
         <div className="flex items-center justify-center p-2">
           <p className="c-font-text font-bold text-white">
