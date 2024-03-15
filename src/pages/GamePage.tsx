@@ -39,12 +39,6 @@ export default function GamePage() {
     }, []);
 
 
-    const colorVariants = {
-        idle: 'bg-gray',
-        correct: 'bg-correct',
-        wrong: 'bg-wrong'
-    }
-
     function startGame() {
         let array = [...data];
 
