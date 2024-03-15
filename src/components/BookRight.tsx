@@ -1,6 +1,8 @@
 import { motion } from "framer-motion"
 import { useState } from 'react'
 
+type Status = "idle" | "correct" | "wrong";
+
 type BookRightPropTypes = {
   title: string,
   author: string,
@@ -8,7 +10,7 @@ type BookRightPropTypes = {
   cover: string,
   showAnswer: boolean,
   weeks_number_one: number,
-  answerIs: string,
+  answerIs: Status,
   handleAnswer: (answer: string) => void
 }
 
