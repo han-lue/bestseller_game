@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import data from "../assets/data.json"
 import GameStats from '../components/GameStats.tsx';
@@ -15,12 +15,15 @@ interface Book {
     weeks_number_one: number
 }
 
+type Status = "idle" | "correct" | "wrong";
+
 
 export default function GamePage() {
 
-    const [playing, setPlaying] = useState<boolean>(false);
     const [score, setScore] = useState<number>(0);
     const [health, setHealth] = useState<number>(3);
+    const [answerIs, setAnswerIs] = useState<Status>("idle");
+    
 
     const [showAnswer, setShowAnswer] = useState<boolean>(false);
     const [gameOver, setGameOver] = useState<boolean>(false);
@@ -30,6 +33,17 @@ export default function GamePage() {
     const [bookRight, setBookRight] = useState<Book>({title: "", author: "", year_published: 0, cover: "", weeks_number_one: 0});
 
     const [remainingBooks, setRemainingBooks] = useState<Array<Book>>([]);
+
+    useEffect(() => {
+        startGame();
+    }, []);
+
+
+    const colorVariants = {
+        idle: 'bg-gray',
+        correct: 'bg-correct',
+        wrong: 'bg-wrong'
+    }
 
     function startGame() {
         let array = [...data];
@@ -47,7 +61,6 @@ export default function GamePage() {
     }
 
     function resetStates() {
-        setPlaying(true);
         setScore(0);
         setGameOver(false);
         setYouWon(false);
@@ -84,13 +97,21 @@ export default function GamePage() {
          
     }
 
+    function handleBackgroundColor(status) {
+        setAnswerIs(status);
+
+        setTimeout(() => {setAnswerIs("idle")}, 250);
+    }
+
     const handleAnswer = (answer: string) => {
         if (answer === "+" && bookLeft.weeks_number_one <= bookRight.weeks_number_one) {
+            handleBackgroundColor("correct");
             setScore(score + 1);
             setShowAnswer(true);
             setTimeout(getNewBook, 2000);
             
         } else if (answer === "-" && bookLeft.weeks_number_one >= bookRight.weeks_number_one) {
+            handleBackgroundColor("correct");
             setScore(score + 1);
             setShowAnswer(true);
             setTimeout(getNewBook, 2000);
@@ -98,24 +119,21 @@ export default function GamePage() {
         } else {
       
             if (health > 1) {
+                handleBackgroundColor("wrong");
                 setHealth(health - 1);
                 setShowAnswer(true);
                 setTimeout(getNewBook, 2000);
             } else {
+                handleBackgroundColor("wrong");
                 setHealth(health - 1);
                 setGameOver(true);
             }   
         }
-
-
     }
 
   return (
     <div className='bg-gray text-white h-screen w-screen px-3 flex flex-col items-center justify-center'>
-        {
-        playing 
-        ? 
-        <div className='bg-gray text-white h-full w-full flex flex-col items-center justify-center relative'>
+        <div className={` text-white h-full w-full flex flex-col items-center justify-center relative ${colorVariants[answerIs]}`}>
             <GameStats score={score} health={health} gameOver={gameOver} youWon={youWon}/>
 
             <div className={`flex items-center justify-center w-full gap-4`}>
@@ -133,12 +151,7 @@ export default function GamePage() {
                 <YouWon score={score} handlePlayButton={handlePlayButton}/>
             }
         </div>
-        :  
-        <div className='flex flex-col w-full h-full justify-center items-center gap-12'>
-            <p>This is a simple higher or lower game where you try to guess which book stayed longer in the New York Times Bestseller List</p>
-            <button className='bg-white text-black p-4 self-center rounded-lg font-semibold hover:bg-opacity-80' onClick={handlePlayButton}>Start Playing</button>
-        </div>
-        }
+     
         
     </div>
   )
@@ -146,9 +159,9 @@ export default function GamePage() {
 
 /* 
 todo:
-- bug fix: showAnswer anim only triggers the first time and never again
+- bug fix: showAnswer anim only triggers the first time and never again - FIXED
 - try right book slide to left animation
 - fix alert ui
-- add another visual effect so the user can easily tell if their answer was correct or not
-- disable buttons during wait time so user doesnt spam it
+- add another visual effect so the user can easily tell if their answer was correct or not - FIXED BUT NEED IMPROVEMENTS
+- disable buttons during wait time so user doesnt spam it - FIXED
 */

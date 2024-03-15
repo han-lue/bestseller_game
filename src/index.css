@@ -18,3 +18,23 @@
 .c-font-headline {
     font-size: calc(20px + 0.390625vw);
 }
+
+.c-animate-correct {
+    animation: correct 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes correct {
+    from {background-color: "#191919";}
+    to {background-color: green;}
+}
+
+.c-animate-false {
+    animation: false 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes false {
+    from {background-color: "#191919";}
+    to {background-color: red;}
+}

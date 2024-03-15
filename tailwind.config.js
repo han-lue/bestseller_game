@@ -8,7 +8,10 @@ export default {
     colors: {
       black: "#101010",
       white: "#f6f6f6",
-      gray: "#191919"
+      gray: "#191919",
+      correct: "#008000",
+      wrong: "#FF0000",
+      idle: "#191919",
     },
     extend: {},
   },

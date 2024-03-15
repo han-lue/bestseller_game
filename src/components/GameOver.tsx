@@ -15,7 +15,6 @@ export default function GameOver({score, handlePlayButton}: GameOverPropTypes) {
         <p className="c-font-author ">But at least you got {score} of them correct.</p>
         <button className='bg-white text-black p-4 self-center rounded-lg font-semibold hover:bg-opacity-80' onClick={handlePlayButton}>Play Again</button>
       </div>
-    </motion.div>
-    
+    </motion.div> 
   )
 }
