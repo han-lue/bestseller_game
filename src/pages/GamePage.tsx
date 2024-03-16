@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { motion } from "framer-motion"
 
 import data from "../assets/data.json"
 import GameStats from '../components/GameStats.tsx';
@@ -6,6 +7,9 @@ import BookLeft from '../components/BookLeft.tsx';
 import BookRight from '../components/BookRight.tsx';
 import GameOver from "../components/GameOver.tsx"
 import YouWon from '../components/YouWon.tsx';
+
+const MotionBookRight = motion(BookRight);
+
 
 interface Book {
     title: string,
@@ -23,7 +27,6 @@ export default function GamePage() {
     const [score, setScore] = useState<number>(0);
     const [health, setHealth] = useState<number>(3);
     const [answerIs, setAnswerIs] = useState<Status>("idle");
-    
 
     const [showAnswer, setShowAnswer] = useState<boolean>(false);
     const [gameOver, setGameOver] = useState<boolean>(false);
@@ -94,7 +97,7 @@ export default function GamePage() {
     function handleBackgroundColor(status: Status) {
         setAnswerIs(status);
 
-        setTimeout(() => {setAnswerIs("idle")}, 500);
+        setTimeout(() => {setAnswerIs("idle")}, 2000);
     }
 
     const handleAnswer = (answer: string) => {
@@ -132,8 +135,7 @@ export default function GamePage() {
 
             <div className={`flex items-center justify-center w-full gap-4`}>
                 <BookLeft title={bookLeft.title} author={bookLeft.author} year_published={bookLeft.year_published}  cover={bookLeft.cover} weeks_number_one={bookLeft.weeks_number_one}/>
-                <BookRight title={bookRight.title} author={bookRight.author} year_published={bookRight.year_published}  cover={bookRight.cover} answerIs={answerIs} handleAnswer={handleAnswer} 
-                showAnswer={showAnswer} weeks_number_one={bookRight.weeks_number_one}/>
+                <BookRight title={bookRight.title} author={bookRight.author} year_published={bookRight.year_published}  cover={bookRight.cover} answerIs={answerIs} handleAnswer={handleAnswer} showAnswer={showAnswer} weeks_number_one={bookRight.weeks_number_one}/>
             </div>
             
             {
@@ -145,8 +147,6 @@ export default function GamePage() {
                 <YouWon score={score} handlePlayButton={handlePlayButton}/>
             }
         </div>
-     
-        
     </div>
   )
 }
@@ -154,7 +154,7 @@ export default function GamePage() {
 /* 
 todo:
 - bug fix: showAnswer anim only triggers the first time and never again - FIXED
-- try right book slide to left animation
+- try right book slide to left animation - FIXED WITH A DIFFERENT SOLUTION
 - fix alert ui
 - add another visual effect so the user can easily tell if their answer was correct or not - FIXED BUT NEED IMPROVEMENTS
 - disable buttons during wait time so user doesnt spam it - FIXED
