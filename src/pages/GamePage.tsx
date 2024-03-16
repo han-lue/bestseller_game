@@ -8,9 +8,6 @@ import BookRight from '../components/BookRight.tsx';
 import GameOver from "../components/GameOver.tsx"
 import YouWon from '../components/YouWon.tsx';
 
-const MotionBookRight = motion(BookRight);
-
-
 interface Book {
     title: string,
     author: string,
