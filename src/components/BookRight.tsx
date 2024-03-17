@@ -44,7 +44,7 @@ type BookRightPropTypes = {
         </div>
 
         <motion.img initial={{opacity: 0.1}} animate={{opacity: 1}} transition={{duration: 1, ease: "easeOut"}}
-        key={cover} src={cover} alt='book cover' className={`w-full sm:w-9/12  md:w-3/5 lg:w-1/2 aspect-[2/3] rounded-lg border-2 border-white ${colorVariants[answerIs]} `}/>
+        key={cover} src={cover} alt='book cover' className={`w-full sm:w-9/12  md:w-3/5 lg:w-1/2 aspect-[2/3] rounded-lg border border-white ${colorVariants[answerIs]} `}/>
         
         <div className="flex gap-4 w-full c-font-text text-white font-semibold items-center justify-center">
           <button className={`p-2 min-[440px]:px-4 rounded-xl bg-white text-black active:bg-opacity-80 md:hover:opacity-80 ${disableButton ? "opacity-70" : "opacity-100"}`} 

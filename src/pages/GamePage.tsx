@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-import data from "../assets/data.json"
+import data from "../assets/data_test.json"
 import GameStats from '../components/GameStats.tsx';
 import BookLeft from '../components/BookLeft.tsx';
 import BookRight from '../components/BookRight.tsx';

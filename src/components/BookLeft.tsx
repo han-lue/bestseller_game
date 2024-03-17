@@ -20,7 +20,7 @@ export default function BookLeft(props:
         </div>
 
         <motion.img initial={{opacity: 0.1}} animate={{opacity: 1}} transition={{duration: 1, ease: "easeOut"}}
-        key={props.cover} src={props.cover} alt='book cover' className='w-full sm:w-9/12  md:w-3/5 lg:w-1/2 aspect-[2/3] rounded-lg border-2 border-white'/>
+        key={props.cover} src={props.cover} alt='book cover' className='w-full sm:w-9/12  md:w-3/5 lg:w-1/2 aspect-[2/3] rounded-lg border border-white'/>
         
         <div className="flex items-center justify-center p-2">
           <p className="c-font-text font-bold text-white">
