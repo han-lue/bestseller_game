@@ -16,6 +16,5 @@ export default function YouWon({score, handlePlayButton}: YouWonPropTypes) {
         <button className='bg-white text-black p-4 self-center rounded-lg c-font-text font-semibold hover:bg-opacity-80' onClick={handlePlayButton}>Play Again</button>
       </div>
     </motion.div>
-    
   )
 }

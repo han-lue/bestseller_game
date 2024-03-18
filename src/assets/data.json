@@ -3027,6 +3027,1194 @@
         "year_published": 2000,
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1406510315i/50930.jpg",
         "weeks_number_one": 5
-    }
+    },
+    {
+        "title": "From the Corner of His Eye",
+        "author": "Dean Koontz",
+        "year_published": 2000,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388275293i/65948.jpg",
+        "weeks_number_one": 3
+    },
+    {
+        "title": "A Day Late and a Dollar Short",
+        "author": "Terry McMillan",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347473410i/122209.jpg",
+        "weeks_number_one": 3
+    },
+    {
+        "title": "A Painted House",
+        "author": "John Grisham",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386924850i/5360.jpg",
+        "weeks_number_one": 4
+    },
+    {
+        "title": "1st to Die",
+        "author": "James Patterson",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1522906581i/13137.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Dreamcatcher",
+        "author": "Stephen King",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1611766265i/11570.jpg",
+        "weeks_number_one": 3
+    },
+    {
+        "title": "A Common Life",
+        "author": "Jan Karon",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1590144142i/71785.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "On the Street Where You Live",
+        "author": "Mary Higgins Clark",
+        "year_published": 2001,
+        "cover": "https://pictures.abebooks.com/isbn/9780743414999-uk.jpg",
+        "weeks_number_one": 4
+    },
+    {
+        "title": "Chosen Prey",
+        "author": "John Sandford",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1434789948i/14785.jpg",
+        "weeks_number_one": 3
+    },
+    {
+        "title": "P Is for Peril",
+        "author": "Sue Grafton",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1390789158i/380976.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Seven Up",
+        "author": "Janet Evanovich",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1311720512i/6424.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Leap of Faith",
+        "author": "Danielle Steel",
+        "year_published": 2000,
+        "cover": "https://cdnx.jumpseller.com/bookmaniacs/image/23251093/IMG_0757.jpg?1649334400",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "The Fourth Hand",
+        "author": "John Irving",
+        "year_published": 2001,
+        "cover": "https://upload.wikimedia.org/wikipedia/en/d/dc/TheFourthHand.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Suzanne's Diary for Nicholas",
+        "author": "James Patterson",
+        "year_published": 2001,
+        "cover": "https://pictures.abebooks.com/inventory/8291187012_2.jpg",
+        "weeks_number_one": 4
+    },
+    {
+        "title": "Valhalla Rising",
+        "author": "Clive Cussler",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1405182792i/198331.jpg",
+        "weeks_number_one": 4
+    },
+    {
+        "title": "Black House",
+        "author": "Stephen King and Peter Straub",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388263466i/10607.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "The Corrections",
+        "author": "Jonathan Franzen",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1355011305i/3805.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Isle of Dog",
+        "author": "Patricia Cornwell",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442429163i/392266.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Midnight Bayou",
+        "author": "Nora Roberts",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1309200744i/114132.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Kiss",
+        "author": "Danielle Steel",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1403182161i/891081.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Desecration",
+        "author": "Tim LaHaye and Jerry B. Jenkins",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1406505722i/27526.jpg",
+        "weeks_number_one": 3
+    },
+    {
+        "title": "Skipping Christmas",
+        "author": "John Grisham",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347598629i/5357.jpg",
+        "weeks_number_one": 6
+    },
+    {
+        "title": "One Door Away from Heaven",
+        "author": "Dean Koontz",
+        "year_published": 2001,
+        "cover": "https://upload.wikimedia.org/wikipedia/en/6/6a/One_Door_Away_From_Heaven.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Journey Through Heartsongs",
+        "author": "Mattie Stepanek",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1349018906i/572762.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "The Diary of Ellen Rimbauer",
+        "author": "Joyce Reardon",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347342685i/32703.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Summons",
+        "author": "John Grisham",
+        "year_published": 2002,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388611098i/5352.jpg",
+        "weeks_number_one": 4
+    },
+    {
+        "title": "2nd Chance",
+        "author": "James Patterson and Andrew Gross",
+        "year_published": 1999,
+        "cover": "https://upload.wikimedia.org/wikipedia/en/4/42/2nd_Chance_James_Patterson.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Everything's Eventual",
+        "author": "Stephen King",
+        "year_published": 2002,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386922876i/10579.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Three Fates",
+        "author": "Nora Roberts",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1309201516i/682153.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Nanny Diaries",
+        "author": "Emma McLaughlin and Nicola Kraus",
+        "year_published": 2002,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1390018191i/228333.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Daddy's Little Girl",
+        "author": "Mary Higgins Clark",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347359178i/170618.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "The Shelters of Stone",
+        "author": "Jean M. Auel",
+        "year_published": 2002,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1424490852i/46544.jpg",
+        "weeks_number_one": 4
+    },
+    {
+        "title": "In This Mountain",
+        "author": "Jan Karon",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388629068i/71787.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "The Beach House",
+        "author": "James Patterson and Peter de Jonge",
+        "year_published": 2002,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388199852i/7510.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Hard Eight",
+        "author": "Janet Evanovich",
+        "year_published": 2002,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1479699438i/6425.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Remnant",
+        "author": "Tim LaHaye and Jerry B. Jenkins",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1406506156i/27530.jpg",
+        "weeks_number_one": 4
+    },
+    {
+        "title": "The Lovely Bones",
+        "author": "Alice Sebold",
+        "year_published": 2002,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1457810586i/12232938.jpg",
+        "weeks_number_one": 10
+    },
+    {
+        "title": "Red Rabbit",
+        "author": "Tom Clancy",
+        "year_published": 2002,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546283429i/19707.jpg",
+        "weeks_number_one": 3
+    },
+    {
+        "title": "Nights in Rodanthe",
+        "author": "Nicholas Sparks",
+        "year_published": 2002,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328145638i/15926.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "From a Buick 8",
+        "author": "Stephen King",
+        "year_published": 2002,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1304686732i/22076.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Q Is for Quarry",
+        "author": "Sue Grafton",
+        "year_published": 2002,
+        "cover": "https://upload.wikimedia.org/wikipedia/en/0/00/Q_Is_for_Quarry.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Answered Prayers",
+        "author": "Danielle Steel",
+        "year_published": 2002,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348880777i/59879.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Chesapeake Blue",
+        "author": "Nora Roberts",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1304979355i/114187.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Four Blind Mice",
+        "author": "James Patterson",
+        "year_published": 2001,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1408929456i/53625.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Prey",
+        "author": "Michael Crichton",
+        "year_published": 2002,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1607268251i/83763.jpg",
+        "weeks_number_one": 4
+    },
+    {
+        "title": "Crossroads of Twilight",
+        "author": "Robert Jordan",
+        "year_published": 2003,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1647270020i/113435.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "The King of Torts",
+        "author": "John Grisham",
+        "year_published": 2003,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388260347i/5356.jpg",
+        "weeks_number_one": 5
+    },
+    {
+        "title": "The Jester",
+        "author": "James Patterson and Andrew Gross",
+        "year_published": 2003,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347270829i/13157.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Da Vinci Code",
+        "author": "Dan Brown",
+        "year_published": 2003,
+        "cover": "https://upload.wikimedia.org/wikipedia/en/6/6b/DaVinciCode.jpg",
+        "weeks_number_one": 59
+    },
+    {
+        "title": "Birthright",
+        "author": "Nora Roberts",
+        "year_published": 2003,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1309282307i/114203.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Armageddon",
+        "author": "Tim LaHaye and Jerry B. Jenkins",
+        "year_published": 2003,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1406507661i/27525.jpg",
+        "weeks_number_one": 5
+    },
+    {
+        "title": "Naked Prey",
+        "author": "John Sandford",
+        "year_published": 2001,
+        "cover": "https://cdn.kobo.com/book-images/1d7a2d4d-6767-4658-a1f4-4f1d6ec710fb/353/569/90/False/naked-prey.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Lake House",
+        "author": "James Patterson",
+        "year_published": 2003,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388179408i/110444.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Johnny Angel",
+        "author": "Danielle Steel",
+        "year_published": 2003,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348885839i/82795.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "To the Nines",
+        "author": "Janet Evanovich",
+        "year_published": 2003,
+        "cover": "https://upload.wikimedia.org/wikipedia/en/0/03/JanetEvanovich_ToTheNines.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Teeth of the Tiger",
+        "author": "Tom Clancy",
+        "year_published": 2003,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1389990838i/19674.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Bleachers",
+        "author": "John Grisham",
+        "year_published": 2003,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386920942i/5347.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "The Five People You Meet in Heaven",
+        "author": "Mitch Albom",
+        "year_published": 2003,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388200541i/3431.jpg",
+        "weeks_number_one": 7
+    },
+    {
+        "title": "Blow Fly",
+        "author": "Patricia Cornwell",
+        "year_published": 2003,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1389270705i/31623.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Last Juror",
+        "author": "John Grisham",
+        "year_published": 2004,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386924294i/5346.jpg",
+        "weeks_number_one": 3
+    },
+    {
+        "title": "3rd Degree",
+        "author": "James Patterson and Andrew Gross",
+        "year_published": 2004,
+        "cover": "https://upload.wikimedia.org/wikipedia/en/6/62/3rd_Degree_James_Patterson.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Glorious Appearing",
+        "author": "Tim LaHaye and Jerry B. Jenkins",
+        "year_published": 2004,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1402100211i/133767.jpg",
+        "weeks_number_one": 3
+    },
+    {
+        "title": "Song of Susannah",
+        "author": "Stephen King",
+        "year_published": 2004,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1554221361i/5093.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Ten Big Ones",
+        "author": "Janet Evanovich",
+        "year_published": 2004,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1171076278i/86663.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Sam's Letters to Jennifer",
+        "author": "James Patterson",
+        "year_published": 2004,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388245317i/80568.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "R Is for Ricochet",
+        "author": "Sue Grafton",
+        "year_published": 2004,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388265730i/64862.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Trace",
+        "author": "Patricia Cornwell",
+        "year_published": 2004,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1310723816i/6530.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "The Dark Tower",
+        "author": "Stephen King",
+        "year_published": 2004,
+        "cover": "https://upload.wikimedia.org/wikipedia/en/5/54/Thedarktower7.jpg",
+        "weeks_number_one": 3
+    },
+    {
+        "title": "Hour Game",
+        "author": "David Baldacci",
+        "year_published": 2004,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388416892i/85306.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Metro Girl",
+        "author": "Janet Evanovich",
+        "year_published": 2004,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388269204i/40329.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "London Bridges",
+        "author": "James Patterson",
+        "year_published": 2004,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1439049145i/13151.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Night Fall",
+        "author": "Nelson DeMille",
+        "year_published": 2004,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1532484075i/40940631.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Northern Lights",
+        "author": "Nora Roberts",
+        "year_published": 2004,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1309209276i/85459.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "The Broker",
+        "author": "John Grisham",
+        "year_published": 2005,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386924342i/1110.jpg",
+        "weeks_number_one": 5
+    },
+    {
+        "title": "Honeymoon",
+        "author": "James Patterson and Howard Roughan",
+        "year_published": 2005,
+        "cover": "https://upload.wikimedia.org/wikipedia/en/f/f0/Second_Honeymoon_%28Patterson_novel%29.jpg",
+        "weeks_number_one": 4
+    },
+    {
+        "title": "The Rising",
+        "author": "Tim LaHaye and Jerry B. Jenkins",
+        "year_published": 2005,
+        "cover": "https://upload.wikimedia.org/wikipedia/en/1/1e/TimLaHaye_TheRising.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "No Place Like Home",
+        "author": "Mary Higgins Clark",
+        "year_published": 2005,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1390615572i/41487.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "True Believer",
+        "author": "Nicholas Sparks",
+        "year_published": 2005,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1385739017i/3464.jpg",
+        "weeks_number_one": 3
+    },
+    {
+        "title": "4th of July",
+        "author": "James Patterson and Maxine Paetro",
+        "year_published": 2005,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388186955i/33668.jpg",
+        "weeks_number_one": 4
+    },
+    {
+        "title": "The Closers",
+        "author": "Michael Connelly",
+        "year_published": 2005,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388262627i/32505.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Mermaid Chair",
+        "author": "Sue Monk Kidd",
+        "year_published": 2005,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1533194482i/6976.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Historian",
+        "author": "Elizabeth Kostova",
+        "year_published": 2005,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1463702268i/30236962.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Eleven on Top",
+        "author": "Janet Evanovich",
+        "year_published": 2005,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1166394806i/11003.jpg",
+        "weeks_number_one": 3
+    },
+    {
+        "title": "Lifeguard",
+        "author": "James Patterson and Andrew Gross",
+        "year_published": 2005,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1344264201i/86424.jpg",
+        "weeks_number_one": 4
+    },
+    {
+        "title": "Chill Factor",
+        "author": "Sandra Brown",
+        "year_published": 2005,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388186654i/268275.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Point Blank",
+        "author": "Catherine Coulter",
+        "year_published": 2005,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388187198i/319136.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Polar Shift",
+        "author": "Clive Cussler and Paul Kemprecos",
+        "year_published": 2005,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1389533006i/41699.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Anansi Boys",
+        "author": "Neil Gaiman",
+        "year_published": 2005,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1479778049i/2744.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "A Breath of Snow and Ashes",
+        "author": "Diana Gabaldon",
+        "year_published": 2005,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388197203i/10965.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Lincoln Lawyer",
+        "author": "Michael Connelly",
+        "year_published": 2005,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1529686346i/40612032.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Knife of Dreams",
+        "author": "Robert Jordan",
+        "year_published": 2005,
+        "cover": "https://upload.wikimedia.org/wikipedia/en/9/9b/WoT11_KnifeOfDreams.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "At First Sight",
+        "author": "Nicholas Sparks",
+        "year_published": 2005,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1409355671i/15924.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Predator",
+        "author": "Patricia Cornwell",
+        "year_published": 2005,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1310552145i/6528.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "A Feast for Crows",
+        "author": "George R. R. Martin",
+        "year_published": 2005,
+        "cover": "https://upload.wikimedia.org/wikipedia/en/a/a3/AFeastForCrows.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Mary, Mary",
+        "author": "James Patterson",
+        "year_published": 2005,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388217078i/84736.jpg",
+        "weeks_number_one": 5
+    },
+    {
+        "title": "S Is for Silence",
+        "author": "Sue Grafton",
+        "year_published": 2005,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1439457865i/142079.jpg",
+        "weeks_number_one": 2
+    },
 
+
+
+    {
+        "title": "The Hostage",
+        "author": "W. E. B. Griffin",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1435869315i/140060.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Cell",
+        "author": "Stephen King",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1432828013i/10567.jpg",
+        "weeks_number_one": 3
+    },
+    {
+        "title": "The 5th Horseman",
+        "author": "James Patterson and Maxine Paetro",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1396631487i/21445.jpg",
+        "weeks_number_one": 3
+    },
+    {
+        "title": "The House",
+        "author": "Danielle Steel",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320432454i/715217.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Gone",
+        "author": "Jonathan Kellerman",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1391881292i/201972.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Two Little Girls in Blue",
+        "author": "Mary Higgins Clark",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348663827i/154423.jpg",
+        "weeks_number_one": 4
+    },
+    {
+        "title": "Beach Road",
+        "author": "James Patterson and Peter de Jonge",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1387705973i/85733.jpg",
+        "weeks_number_one": 3
+    },
+    {
+        "title": "At Risk",
+        "author": "Patricia Cornwell",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388422652i/6543.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Husband",
+        "author": "Dean Koontz",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388257740i/16429.jpg",
+        "weeks_number_one": 3
+    },
+    {
+        "title": "Twelve Sharp",
+        "author": "Janet Evanovich",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1316727699i/3507.jpg",
+        "weeks_number_one": 3
+    },
+    {
+        "title": "Angels Fall",
+        "author": "Nora Roberts",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442931263i/26050.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Phantom",
+        "author": "Terry Goodkind",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1574449879i/43884.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Judge and Jury",
+        "author": "James Patterson and Andrew Gross",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1440619495i/13130.jpg",
+        "weeks_number_one": 4
+    },
+    {
+        "title": "Rise and Shine",
+        "author": "Anna Quindlen",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388201004i/49501.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Book of Fate",
+        "author": "Brad Meltzer",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1344271447i/85322.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Thirteenth Tale",
+        "author": "Diane Setterfield",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1346267826i/40440.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "For One More Day",
+        "author": "Mitch Albom",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1438705425i/10929.jpg",
+        "weeks_number_one": 9
+    },
+    {
+        "title": "Lisey's Story",
+        "author": "Stephen King",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1316346037i/10566.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Dear John",
+        "author": "Nicholas Sparks",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1397749854i/5526.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Cross",
+        "author": "James Patterson",
+        "year_published": 2006,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388194831i/13128.jpg",
+        "weeks_number_one": 3
+    },
+    {
+        "title": "Plum Lovin'",
+        "author": "Janet Evanovic",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442873718i/6419.jpg",
+        "weeks_number_one": 4
+    },
+    {
+        "title": "Step on a Crack",
+        "author": "James Patterson",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442786367i/45169.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Innocent in Death",
+        "author": "J. D. Robb",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1425837557i/74033.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Shopaholic and Baby",
+        "author": "Sophie Kinsella",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1610896565i/9420.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Nineteen Minutes",
+        "author": "Jodi Picoult",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348577596i/14866.jpg",
+        "weeks_number_one": 4
+    },
+    {
+        "title": "I Heard That Song Before",
+        "author": "Mary Higgins Clark",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1408925501i/170641.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "The Children of Húrin",
+        "author": "J. R. R. Tolkien",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1390692771i/597790.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Simple Genius",
+        "author": "David Baldacci",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388340824i/93947.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "The 6th Target",
+        "author": "James Patterson and Maxine Paetro",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1336275870i/13131.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "A Thousand Splendid Suns",
+        "author": "Khaled Hosseini",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655336738i/128029.jpg",
+        "weeks_number_one": 15
+    },
+    {
+        "title": "Lean Mean Thirteen",
+        "author": "Janet Evanovich",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442616484i/40317.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Quickie",
+        "author": "James Patterson and Michael Ledwidge",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442870790i/13133.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "You've Been Warned",
+        "author": "James Patterson and Howard Roughan",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1441496500i/13134.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Playing for Pizza",
+        "author": "John Grisham",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1435592714i/1205297.jpg",
+        "weeks_number_one": 3
+    },
+    {
+        "title": "World Without End",
+        "author": "Ken Follett",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1509545511i/5064.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Book of the Dead",
+        "author": "Patricia Cornwell",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442534083i/6526.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Protect and Defendeds",
+        "author": "Vince Flynn",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1429284131i/504420.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Stone Cold",
+        "author": "David Baldacci",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1556721751i/627984.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Double Cross",
+        "author": "James Patterson",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1256839349i/552887.jpg",
+        "weeks_number_one": 4
+    },
+    {
+        "title": "T Is for Trespass",
+        "author": "Sue Grafton",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1266546923i/410445.jpg",
+        "weeks_number_one": 2
+    },
+
+
+
+    {
+        "title": "Plum Lucky",
+        "author": "Janet Evanovich",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1562040549i/1434105.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Duma Key",
+        "author": "Stephen King",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1620172619i/472343.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Appeal",
+        "author": "John Grisham",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1422456542i/1248179.jpg",
+        "weeks_number_one": 5
+    },
+    {
+        "title": "Change of Heart",
+        "author": "Jodi Picoult",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1390429931i/1609451.jpg",
+        "weeks_number_one": 3
+    },
+    {
+        "title": "Compulsion",
+        "author": "Jonathan Kellerman",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1307882074i/1528385.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Unaccustomed Earth",
+        "author": "Jhumpa Lahiri",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320398140i/85301.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Where Are You Now?",
+        "author": "Mary Higgins Clark",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348525253i/1629007.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Hold Tight",
+        "author": "Harlan Coben",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1433737434i/2177236.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Whole Truth",
+        "author": "David Baldacci",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1410210693i/2260637.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Sundays at Tiffany's",
+        "author": "James Patterson and Gabrielle Charbonnet",
+        "year_published": 2008,
+        "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Sundays_At_Tiffany%27s_Book_Cover.jpg/220px-Sundays_At_Tiffany%27s_Book_Cover.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Host",
+        "author": "Stephenie Meyer",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1318009171i/1656001.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Odd Hours",
+        "author": "Dean Koontz",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388204532i/2029927.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Blood Noir",
+        "author": "Laurell K. Hamilton",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1310494632i/2149535.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Nothing to Lose",
+        "author": "Lee Child",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1441312964i/2211221.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Sail",
+        "author": "James Patterson and Howard Roughan",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1344264435i/2029176.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Fearless Fourteen",
+        "author": "Janet Evanovich",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442967398i/2292384.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "The Last Patriot",
+        "author": "Brad Thor",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388705552i/2336803.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Tribute",
+        "author": "Nora Roberts",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1437070351i/2003767.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Moscow Rules",
+        "author": "Daniel Silva",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1441892771i/2033217.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Acheron",
+        "author": "Sherrilyn Kenyon",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1437687512i/2299110.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Smoke Screen",
+        "author": "Sandra Brown",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347853263i/2306910.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Force Unleashed",
+        "author": "Sean Williams",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1696863694i/359855.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Devil Bones",
+        "author": "Kathy Reichs",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388258845i/2095583.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Dark Curse",
+        "author": "Christine Feehan",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1408310342i/2444135.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Anathem",
+        "author": "Neal Stephenson",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1488349209i/2845024.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Story of Edgar Sawtelle",
+        "author": "David Wroblewski",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1310466361i/2731276.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "The Lucky One",
+        "author": "Nicholas Sparks",
+        "year_published": 2007,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1420816338i/3063499.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "The Brass Verdict",
+        "author": "Michael Connelly",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442889420i/2761626.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Extreme Measures",
+        "author": "Vince Flynn",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1349014258i/3313418.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Gate House",
+        "author": "Nelson DeMille",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1397190673i/3216451.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "Divine Justice",
+        "author": "David Baldacci",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1336266873i/3410425.jpg",
+        "weeks_number_one": 1
+    },
+    {
+        "title": "The Christmas Sweater",
+        "author": "Glenn Beck",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442052035i/3268926.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Cross Country",
+        "author": "James Patterson",
+        "year_published": 2008,
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1344270626i/1713912.jpg",
+        "weeks_number_one": 2
+    },
+    {
+        "title": "Scarpetta",
+        "author": "Patricia Cornwell",
+        "year_published": 2008,
+        "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/ScarpettaNovel.jpg/220px-ScarpettaNovel.jpg",
+        "weeks_number_one": 3
+    }
 ]
