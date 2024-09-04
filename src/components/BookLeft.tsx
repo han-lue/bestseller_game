@@ -6,11 +6,8 @@ export default function BookLeft(props:
     year_published: number,
     cover: string,
     weeks_number_one: number}) 
-    {
-
-// h-[34px] min-[375px]:h-[42px] md:h-[46px]
-
-
+  
+  {
   return (
     <div className="w-1/2 h-full flex flex-col items-center justify-end gap-3">
         

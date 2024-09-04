@@ -50,7 +50,6 @@ export default function GamePage() {
         setBookRight(array.splice(index, 1)[0]);
 
         setRemainingBooks(array);
-
     }
 
     function resetStates() {
@@ -147,11 +146,3 @@ export default function GamePage() {
   )
 }
 
-/* 
-todo:
-- bug fix: showAnswer anim only triggers the first time and never again - FIXED
-- try right book slide to left animation - FIXED WITH A DIFFERENT SOLUTION
-- fix alert ui
-- add another visual effect so the user can easily tell if their answer was correct or not - FIXED BUT NEED IMPROVEMENTS
-- disable buttons during wait time so user doesnt spam it - FIXED
-*/
