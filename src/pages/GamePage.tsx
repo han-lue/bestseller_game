@@ -38,20 +38,17 @@ export default function GamePage() {
     }, []);
 
 
+    // Sets up the starting point of the game
     function startGame() {
         let array = [...data];
-
         let index = Math.floor(Math.random() * (array.length - 1));
-
         setBookLeft(array.splice(index, 1)[0]);
-
         index = Math.floor(Math.random() * (array.length - 1));
-
         setBookRight(array.splice(index, 1)[0]);
-
         setRemainingBooks(array);
     }
 
+    // Resets all the variables related to the previous game
     function resetStates() {
         setScore(0);
         setGameOver(false);
@@ -63,53 +60,48 @@ export default function GamePage() {
         setRemainingBooks([]);
     }
 
+    //Resets the data about the previous game and starts a new game
     const handlePlayButton = () => {
         resetStates();
         startGame();
     }
 
+    // Moves the book on the right to the left and gets a new book to show on the right side.
     function getNewBook() {
         if (remainingBooks.length > 0) {
-
             setShowAnswer(false);
-
             let array = [...remainingBooks];
-        
             setBookLeft(bookRight);
-        
             let index = Math.floor(Math.random() * (array.length - 1));
-            
             setBookRight(array.splice(index, 1)[0]);
-        
             setRemainingBooks(array);
-      
         } else {
             setYouWon(true);
         }
-         
     }
 
+    // Shows a visual cue the indicate whether the answer was correct or wrong.
     function handleBackgroundColor(status: Status) {
         setAnswerIs(status);
-
         setTimeout(() => {setAnswerIs("idle")}, 2000);
     }
 
+    // Checks whether the answer is correct or wrong
     const handleAnswer = (answer: string) => {
-        if (answer === "+" && bookLeft.weeks_number_one <= bookRight.weeks_number_one) {
+        //If the answer is correct
+        if (answer === "+" && (bookLeft.weeks_number_one <= bookRight.weeks_number_one)) {
             handleBackgroundColor("correct");
             setScore(score + 1);
             setShowAnswer(true);
             setTimeout(getNewBook, 2000);
-            
-        } else if (answer === "-" && bookLeft.weeks_number_one >= bookRight.weeks_number_one) {
+        } else if (answer === "-" && (bookLeft.weeks_number_one >= bookRight.weeks_number_one)) {
             handleBackgroundColor("correct");
             setScore(score + 1);
             setShowAnswer(true);
             setTimeout(getNewBook, 2000);
-      
+        
+        // If the answer is wrong
         } else {
-      
             if (health > 1) {
                 handleBackgroundColor("wrong");
                 setHealth(health - 1);

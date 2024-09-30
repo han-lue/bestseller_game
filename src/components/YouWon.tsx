@@ -6,6 +6,7 @@ type YouWonPropTypes = {
 }
 
 export default function YouWon({score, handlePlayButton}: YouWonPropTypes) {
+  
   return (
     <motion.div initial={{scale: 0}} animate={{scale: 1}} transition={{duration: 0.5, ease: "easeOut"}}
      className="w-screen h-screen absolute flex items-center justify-center backdrop-blur-sm">
