@@ -64,6 +64,7 @@ export default function GamePage() {
     const handlePlayButton = () => {
         resetStates();
         startGame();
+        
     }
 
     // Moves the book on the right to the left and gets a new book to show on the right side.
