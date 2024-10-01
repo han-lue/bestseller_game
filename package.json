@@ -2,7 +2,7 @@
   "name": "game_bestseller",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://han-lue.github.io/",
+  "homepage": "https://han-lue.github.io/bestseller_game",
   "type": "module",
   "scripts": {
     "dev": "vite",
