@@ -37,6 +37,12 @@ export default function GamePage() {
         startGame();
     }, []);
 
+    const colorVariants = {
+        idle: 'bg-gray',
+        correct: 'bg-correct opacity-20',
+        wrong: 'bg-wrong'
+      }
+
 
     // Sets up the starting point of the game
     function startGame() {
@@ -64,7 +70,6 @@ export default function GamePage() {
     const handlePlayButton = () => {
         resetStates();
         startGame();
-        
     }
 
     // Moves the book on the right to the left and gets a new book to show on the right side.
@@ -117,13 +122,16 @@ export default function GamePage() {
     }
 
   return (
-    <div className='bg-gray text-white h-screen w-screen px-3 flex flex-col items-center justify-center'>
-        <div className={` text-white h-full w-full flex flex-col items-center justify-center relative bg-gray`}>
+    <div className= {`bg-gray text-white h-screen w-screen px-3 flex flex-col items-center justify-center`}>
+        <div className={` text-white h-full w-full flex flex-col items-center justify-center relative`}>
             <GameStats score={score} health={health} gameOver={gameOver} youWon={youWon}/>
 
             <div className={`flex items-center justify-center w-full gap-4`}>
-                <BookLeft title={bookLeft.title} author={bookLeft.author} year_published={bookLeft.year_published}  cover={bookLeft.cover} weeks_number_one={bookLeft.weeks_number_one}/>
-                <BookRight title={bookRight.title} author={bookRight.author} year_published={bookRight.year_published}  cover={bookRight.cover} answerIs={answerIs} handleAnswer={handleAnswer} showAnswer={showAnswer} weeks_number_one={bookRight.weeks_number_one}/>
+                <BookLeft title={bookLeft.title} author={bookLeft.author} year_published={bookLeft.year_published}  
+                    cover={bookLeft.cover} weeks_number_one={bookLeft.weeks_number_one}/>
+                <BookRight title={bookRight.title} author={bookRight.author} year_published={bookRight.year_published} 
+                    cover={bookRight.cover} answerIs={answerIs} handleAnswer={handleAnswer} showAnswer={showAnswer} 
+                    weeks_number_one={bookRight.weeks_number_one}/>
             </div>
             
             {
