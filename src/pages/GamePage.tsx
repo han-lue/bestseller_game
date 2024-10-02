@@ -37,13 +37,6 @@ export default function GamePage() {
         startGame();
     }, []);
 
-    const colorVariants = {
-        idle: 'bg-gray',
-        correct: 'bg-correct opacity-20',
-        wrong: 'bg-wrong'
-      }
-
-
     // Sets up the starting point of the game
     function startGame() {
         let array = [...data];
