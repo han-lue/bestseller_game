@@ -17,9 +17,9 @@ type BookRightPropTypes = {
 export default function BookRight({title, author, year_published, cover, showAnswer, weeks_number_one, answerIs, handleAnswer}: BookRightPropTypes) {
   
   const colorVariants = {
-    idle: 'white',
-    correct: 'correct',
-    wrong: 'wrong'
+    idle: 'text-white border-white',
+    correct: 'text-correct border-correct',
+    wrong: 'text-wrong border-wrong'
   }
   
   function handleDisableState() {
@@ -37,13 +37,13 @@ export default function BookRight({title, author, year_published, cover, showAns
           >Weeks #1: {weeks_number_one}</motion.p>
       }
 
-      <div className={`flex flex-col gap-1 text-center rounded-lg text-${colorVariants[answerIs]} w-full sm:w-9/12  md:w-3/5 lg:w-1/2`}>
-        <p className="c-font-title font-extrabold">{title} <span>({year_published})</span></p>
-        <p className="c-font-author font-semibold ">{author}</p>
+      <div className={`flex flex-col gap-1 text-center rounded-lg ${colorVariants[answerIs]} w-full sm:w-9/12  md:w-3/5 lg:w-1/2`}>
+        <p className="c-font-title font-extrabold truncate">{title}</p>
+        <p className="c-font-author font-semibold ">{author} <span>({year_published})</span></p>
       </div>
 
       <motion.img initial={{opacity: 0.1}} animate={{opacity: 1}} transition={{duration: 1, ease: "easeOut"}} key={cover} src={cover} alt='book cover' 
-        className={`w-full sm:w-9/12  md:w-3/5 lg:w-1/2 aspect-[2/3] rounded-lg border border-${colorVariants[answerIs]}`}/>
+        className={`w-full sm:w-9/12  md:w-3/5 lg:w-1/2 aspect-[2/3] rounded-lg border-4 ${colorVariants[answerIs]}`}/>
       
       <div className="flex gap-4 w-full c-font-text text-white font-semibold items-center justify-center">
         <button className={`p-2 min-[440px]:px-4 rounded-xl bg-white text-black active:bg-opacity-80 md:hover:opacity-80 ${disableButton ? "opacity-70" : "opacity-100"}`} 
